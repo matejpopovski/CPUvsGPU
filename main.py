@@ -32,7 +32,7 @@ model.compile(optimizer='adam',
 # Train the modell
 model.fit(train_images, train_labels, epochs=5, validation_split=0.1)
 
-# Evaluate the model
+# Evaluate the modell
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 print(f"Test accuracy: {test_acc}")
 
