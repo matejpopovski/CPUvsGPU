@@ -29,7 +29,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-# Train the model
+# Train the modell
 model.fit(train_images, train_labels, epochs=5, validation_split=0.1)
 
 # Evaluate the model
