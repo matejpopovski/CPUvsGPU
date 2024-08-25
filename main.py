@@ -24,7 +24,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(10, activation='softmax') # Output layer with 10 neurons (one for each digit)
 ])
 
-# Compile the modell
+# Compile the model
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
