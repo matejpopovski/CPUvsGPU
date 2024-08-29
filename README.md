@@ -37,6 +37,49 @@ The model was trained using both the CPU and the GPU, and performance measuremen
 
 The code was structured to measure and output the total training time for each device, and the behavior of the model on both devices was tracked across different epoch counts. To ensure consistency, the model was reset between runs, and the same random seed was used to maintain comparable results across multiple experiments.
 
+<table>
+    <thead>
+        <tr>
+            <th>Stats</th>
+            <th>5 Epochs</th>
+            <th>10 Epochs</th>
+            <th>20 Epochs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Time training for CPU</strong></td>
+            <td>35.92 seconds</td>
+            <td>72.02 seconds</td>
+            <td>144.16 seconds</td>
+        </tr>
+        <tr>
+            <td><strong>Time training for GPU</strong></td>
+            <td>24.58 seconds</td>
+            <td>48.81 seconds</td>
+            <td>97.26 seconds</td>
+        </tr>
+        <tr class="highlight">
+            <td><strong>Time saved by GPU</strong></td>
+            <td>11.34 seconds</td>
+            <td>23.20 seconds</td>
+            <td>46.91 seconds</td>
+        </tr>
+        <tr>
+            <td><strong>GPU times faster (ratio)</strong></td>
+            <td>1.461</td>
+            <td>1.475</td>
+            <td>1.482</td>
+        </tr>
+        <tr class="highlight">
+            <td><strong>GPU % faster</strong></td>
+            <td>31.58%</td>
+            <td>32.22%</td>
+            <td>32.54%</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Results
 The results confirmed that the GPU (MPS) consistently outperformed the CPU in all training runs. Across 5, 10, and 20 epochs, the GPU provided faster training times, which is expected due to the parallel processing power and optimized architecture of modern GPUs. These results demonstrate the effectiveness of utilizing GPU acceleration for machine learning tasks, especially when working with larger datasets and more complex models.
 
