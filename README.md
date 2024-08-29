@@ -9,6 +9,31 @@ The project leverages the MNIST dataset, a well-known benchmark for digit recogn
 ## Methodology
 The model was trained using both the CPU and the GPU, and performance measurements were taken to compare the two in terms of training speed. The experiment was conducted by running 5, 10, and 20 epochs on each device. Each training run included timing measurements to observe the difference in performance, with both devices subjected to the same workload.
 
+<table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>5 Epochs</th>
+                <th>10 Epochs</th>
+                <th>20 Epochs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>CPU</th>
+                <td><img src="cpu_5_epochs.png" alt="CPU 5 Epochs"></td>
+                <td><img src="cpu_10_epochs.png" alt="CPU 10 Epochs"></td>
+                <td><img src="cpu_20_epochs.png" alt="CPU 20 Epochs"></td>
+            </tr>
+            <tr>
+                <th>GPU</th>
+                <td><img src="gpu_5_epochs.png" alt="GPU 5 Epochs"></td>
+                <td><img src="gpu_10_epochs.png" alt="GPU 10 Epochs"></td>
+                <td><img src="gpu_20_epochs.png" alt="GPU 20 Epochs"></td>
+            </tr>
+        </tbody>
+    </table>
+
 The code was structured to measure and output the total training time for each device, and the behavior of the model on both devices was tracked across different epoch counts. To ensure consistency, the model was reset between runs, and the same random seed was used to maintain comparable results across multiple experiments.
 
 ## Results
