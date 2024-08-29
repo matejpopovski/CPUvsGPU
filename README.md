@@ -83,6 +83,18 @@ The code was structured to measure and output the total training time for each d
 ## Results
 The results confirmed that the GPU (MPS) consistently outperformed the CPU in all training runs. Across 5, 10, and 20 epochs, the GPU provided faster training times, which is expected due to the parallel processing power and optimized architecture of modern GPUs. These results demonstrate the effectiveness of utilizing GPU acceleration for machine learning tasks, especially when working with larger datasets and more complex models.
 
+<table>
+    <tr>
+        <td><img src="plot1.png" alt="Training Times Plot"></td>
+        <td><img src="plot2.png" alt="Time Saved by GPU Plot"></td>
+    </tr>
+    <tr>
+        <td><img src="plot3.png" alt="GPU Speedup Ratio Plot"></td>
+        <td><img src="plot4.png" alt="GPU Percentage Faster Plot"></td>
+    </tr>
+</table>
+
+
 ## Conclusion
 This project highlights the importance of choosing the appropriate hardware for training machine learning models. While CPUs can be sufficient for smaller workloads or quick experiments, GPUs significantly improve training times, especially for deep learning tasks like digit recognition. Experimenting with different epoch counts also provides insight into how the workload scales across devices, further reinforcing the advantages of using GPU for prolonged training sessions.
 
