@@ -34,7 +34,7 @@ The model was trained using both the CPU and the GPU, and performance measuremen
         </tbody>
     </table>
 
-    <table>
+<table>
     <thead>
         <tr>
             <th></th>
