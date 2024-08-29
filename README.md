@@ -9,6 +9,21 @@ The project leverages the MNIST dataset, a well-known benchmark for digit recogn
 ## Methodology
 The model was trained using both the CPU and the GPU, and performance measurements were taken to compare the two in terms of training speed. The experiment was conducted by running 5, 10, and 20 epochs on each device. Each training run included timing measurements to observe the difference in performance, with both devices subjected to the same workload.
 
+<style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        img {
+            max-width: 150px; /* Increased size */
+            height: auto;
+        }
+</style>
 <table>
         <thead>
             <tr>
