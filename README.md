@@ -85,12 +85,12 @@ The results confirmed that the GPU (MPS) consistently outperformed the CPU in al
 
 <table>
     <tr>
-        <td><img src="plot1.png" alt="Training Times Plot"></td>
-        <td><img src="plot2.png" alt="Time Saved by GPU Plot"></td>
+        <td><img src="photos/plot1.png" alt="Training Times Plot"></td>
+        <td><img src="photos/plot2.png" alt="Time Saved by GPU Plot"></td>
     </tr>
     <tr>
-        <td><img src="plot3.png" alt="GPU Speedup Ratio Plot"></td>
-        <td><img src="plot4.png" alt="GPU Percentage Faster Plot"></td>
+        <td><img src="photos/plot3.png" alt="GPU Speedup Ratio Plot"></td>
+        <td><img src="photos/plot4.png" alt="GPU Percentage Faster Plot"></td>
     </tr>
 </table>
 
