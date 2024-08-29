@@ -34,31 +34,6 @@ The model was trained using both the CPU and the GPU, and performance measuremen
         </tbody>
     </table>
 
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>5 Epochs</th>
-            <th>10 Epochs</th>
-            <th>20 Epochs</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>CPU</th>
-            <td><img src="photos/cpu_5_epochs.png" alt="CPU 5 Epochs" style="max-width: 150px; height: auto;"></td>
-            <td><img src="photos/cpu_10_epochs.png" alt="CPU 10 Epochs" style="max-width: 150px; height: auto;"></td>
-            <td><img src="photos/cpu_20_epochs.png" alt="CPU 20 Epochs" style="max-width: 150px; height: auto;"></td>
-        </tr>
-        <tr>
-            <th>GPU</th>
-            <td><img src="photos/gpu_5_epochs.png" alt="GPU 5 Epochs" style="max-width: 150px; height: auto;"></td>
-            <td><img src="photos/gpu_10_epochs.png" alt="GPU 10 Epochs" style="max-width: 150px; height: auto;"></td>
-            <td><img src="photos/gpu_20_epochs.png" alt="GPU 20 Epochs" style="max-width: 150px; height: auto;"></td>
-        </tr>
-    </tbody>
-</table>
-
 
 The code was structured to measure and output the total training time for each device, and the behavior of the model on both devices was tracked across different epoch counts. To ensure consistency, the model was reset between runs, and the same random seed was used to maintain comparable results across multiple experiments.
 
