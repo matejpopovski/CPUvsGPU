@@ -1,7 +1,7 @@
 # CPU vs GPU in Machine Learning
 
 ## Project Overview
-The first part oft this project focuses on training a digit recognition model using PyTorch and the MNIST dataset. The primary goal is to compare the training performance of the model when executed on two different processing units: the CPU and the GPU (MPS). The model used for training is a Convolutional Neural Network (CNN), which is a popular architecture for image recognition tasks.
+The first part of this project focuses on training a digit recognition model using PyTorch and the MNIST dataset. The primary goal is to compare the training performance of the model when executed on two different processing units: the CPU and the GPU (MPS). The model used for training is a Convolutional Neural Network (CNN), which is a popular architecture for image recognition tasks.
 
 ## Dataset
 The project leverages the MNIST dataset, a well-known benchmark for digit recognition, consisting of 60,000 training images and 10,000 testing images. Each image is a 28x28 grayscale image representing a handwritten digit from 0 to 9. This dataset is ideal for experimenting with machine learning models for classification.
