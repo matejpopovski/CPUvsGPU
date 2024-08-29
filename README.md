@@ -21,15 +21,15 @@ The model was trained using both the CPU and the GPU, and performance measuremen
         <tbody>
             <tr>
                 <th>CPU</th>
-                <td><img src="cpu_5_epochs.png" alt="CPU 5 Epochs"></td>
-                <td><img src="cpu_10_epochs.png" alt="CPU 10 Epochs"></td>
-                <td><img src="cpu_20_epochs.png" alt="CPU 20 Epochs"></td>
+                <td><img src="photos/cpu_5_epochs.png" alt="CPU 5 Epochs"></td>
+                <td><img src="photos/cpu_10_epochs.png" alt="CPU 10 Epochs"></td>
+                <td><img src="photos/cpu_20_epochs.png" alt="CPU 20 Epochs"></td>
             </tr>
             <tr>
                 <th>GPU</th>
-                <td><img src="gpu_5_epochs.png" alt="GPU 5 Epochs"></td>
-                <td><img src="gpu_10_epochs.png" alt="GPU 10 Epochs"></td>
-                <td><img src="gpu_20_epochs.png" alt="GPU 20 Epochs"></td>
+                <td><img src="photos/gpu_5_epochs.png" alt="GPU 5 Epochs"></td>
+                <td><img src="photos/gpu_10_epochs.png" alt="GPU 10 Epochs"></td>
+                <td><img src="photos/gpu_20_epochs.png" alt="GPU 20 Epochs"></td>
             </tr>
         </tbody>
     </table>
