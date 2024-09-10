@@ -98,4 +98,3 @@ The results confirmed that the GPU (MPS) consistently outperformed the CPU in al
 ## Conclusion
 This project highlights the importance of choosing the appropriate hardware for training machine learning models. While CPUs can be sufficient for smaller workloads or quick experiments, GPUs significantly improve training times, especially for deep learning tasks like digit recognition. Experimenting with different epoch counts also provides insight into how the workload scales across devices, further reinforcing the advantages of using GPU for prolonged training sessions.
 
-
